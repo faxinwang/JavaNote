@@ -1,0 +1,1 @@
+javac -processor myjava.lang.MyAnnotationProcessor myjava.lang.Person.java
