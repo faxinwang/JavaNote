@@ -79,9 +79,14 @@ public class VisitorTemplate {
 		elemA.accept(v1);
 		elemA.accept(v2);
 		elemA.accept(v3);
-		
+//		具体访问者1访问了具体元素A
+//		具体访问者2访问了具体元素A
+//		具体访问者3访问了具体元素A
 		elemB.accept(v1);
 		elemB.accept(v2);
 		elemB.accept(v3);
+//		具体访问者1访问了具体元素B
+//		具体访问者2访问了具体元素B
+//		具体访问者3访问了具体元素B
 	}
 }

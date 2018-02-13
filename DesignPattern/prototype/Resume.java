@@ -100,8 +100,14 @@ public class Resume implements ICloneable,ICopyable{
 		c.setWorkExperience("2000-2005", "zz企业");
 		
 		a.display();
+//		大鸟 男 33
+//		工作经验:1998-2006 yy企业
 		b.display();
+//		大鸟 男 20
+//		工作经验:1998-2006 yy企业
 		c.display();
+//		大鸟 男 24
+//		工作经验:2000-2005 zz企业
 	}
 }
 

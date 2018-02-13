@@ -88,7 +88,17 @@ public class StockFacade {
 	public static void main(String[] args) {
 		Fund fund = new Fund();
 		fund.Buy();
+//		股票A 买入1股
+//		股票B 买入1股
+//		股票C 买入1股
+//		国债 买入1股
+//		房地产 买入1股
 		System.out.println();
 		fund.Sell();
+//		股票A 卖出1股
+//		股票B 卖出1股
+//		股票C 卖出1股
+//		国债 卖出1股
+//		房地产 卖出1股
 	}
 }

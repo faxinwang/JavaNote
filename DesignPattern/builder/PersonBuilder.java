@@ -166,10 +166,24 @@ public class PersonBuilder {
 		Person thin= director.Construct();
 		thin.show();
 		
+//		 瘦子
+//		小小的脑袋
+//		瘦瘦的身材
+//		细细的左手臂
+//		细细的右手臂
+//		修长的左腿
+//		修长的右腿
 		System.out.println("\n胖子");
 		director.setBuilder(new PersonFatBuilder());
 		Person fat = director.Construct();
 		fat.show();
+//		胖子
+//		大大的脑袋
+//		肥肥的身材
+//		肉肉的左手臂
+//		肉肉的右手臂
+//		粗粗的左腿
+//		粗粗的右腿
 	}
 }
 

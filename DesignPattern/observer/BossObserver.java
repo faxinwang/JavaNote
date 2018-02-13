@@ -85,5 +85,8 @@ public class BossObserver {
 		s.attach(ww);
 		
 		s.setState("老板回来了");
+//		老板回来了，张三快关闭股票软件,继续工作
+//		老板回来了，李四快关闭股票软件,继续工作
+//		老板回来了，王五快关闭NBA直播,继续工作
 	}
 }

@@ -41,5 +41,7 @@ public class OutputFactory {
 		c.keyIn("轻量级Java EE企业应用实战");
 		c.keyIn("疯狂Java讲义");
 		c.print();
+//		高速打印机正在打印: 轻量级Java EE企业应用实战
+//		高速打印机正在打印: 疯狂Java讲义
 	}
 }

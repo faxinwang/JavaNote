@@ -84,7 +84,7 @@ public class OperationFactory {
 		op.setNumB(10);
 		if(op != null) {
 			double result = op.getResult();
-			System.out.println(result);			
+			System.out.println(result);	//20.0
 		}
 	}
 }

@@ -81,9 +81,31 @@ public class CompositeTemplate {
 		Leaf leaf = new Leaf("Leaf D");
 		root.add(leaf);
 		root.display(1);
-		
+//		-root
+//		---Leaf A
+//		---Leaf B
+//		---branch X
+//		-----Leaf XA
+//		-----Leaf XB
+//		-----branch XX
+//		-------Leaf XXA
+//		-------Leaf XXB
+//		---Leaf C
+//		---Leaf D
 		System.out.println("\nremove leaf D");
 		root.remove(leaf);
 		root.display(1);
+//		remove leaf D
+//		-root
+//		---Leaf A
+//		---Leaf B
+//		---branch X
+//		-----Leaf XA
+//		-----Leaf XB
+//		-----branch XX
+//		-------Leaf XXA
+//		-------Leaf XXB
+//		---Leaf C
+
 	}
 }

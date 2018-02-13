@@ -89,5 +89,14 @@ public class ManAndWoman {
 		Marriage marriage = new Marriage();
 		man.accept(marriage);
 		woman.accept(marriage);
+//		output:
+//		男人成功时,背后多半有一个伟大的女人
+//		女人成功时,背后大多有一个不成功的男人
+//		男人失败时,闷头喝酒,谁也不用劝
+//		女人失败时,泪眼汪汪,谁也劝不了
+//		男人恋爱时,凡事不懂也要撞懂
+//		女人恋爱时,凡事懂也要撞不懂
+//		男人结婚时,感慨道:恋爱游戏终结时,有‘妻’徒刑遥无期
+//		女人结婚时,欣慰曰:爱情长跑路漫漫, 婚姻保险保平安
 	}
 }

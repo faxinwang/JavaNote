@@ -57,9 +57,12 @@ public class TemplateMethodTemplate {
 		AbstractClass ac;
 		ac = new ConcreteClassA();
 		ac.templateMethod();
-		
+//		ConcreteClassA的operation1实现
+//		ConcreteClassA的operation2实现
 		ac = new ConcreteClassB();
 		ac.templateMethod();
+//		ConcreteClassB的operation1实现
+//		ConcreteClassB的operation2实现
 	}
 }
 

@@ -82,5 +82,11 @@ public class DecoratorTemplate {
 		Component component = new ConcreteDecoratorB(
 				new ConcreteDecoratorA(new ConcreteComponent()) );
 		component.Operation();
+//		具体对象的操作
+//		具体装饰对象A独有的操作!
+//		具体装饰对象A的操作!
+//		具体装饰对象B独有的操作!
+//		具体装饰对象B的操作!
+
 	}
 }

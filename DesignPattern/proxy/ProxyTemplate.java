@@ -59,8 +59,8 @@ class Proxy implements ISubject{
 public class ProxyTemplate {
 	public static void main(String[] args) {
 		Proxy proxy = new Proxy(new RealSubject());
-		proxy.Func1();
-		proxy.Func2();
-		proxy.Func3();
+		proxy.Func1(); //真实对象的方法实现Func1
+		proxy.Func2(); //真实对象的方法实现Func2
+		proxy.Func3(); //真实对象的方法实现Func3
 	}
 }

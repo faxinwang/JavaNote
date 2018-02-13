@@ -99,8 +99,15 @@ public class BuilderTemplate {
 		
 		Product p1 = director.Construct(b1);
 		p1.show();
+//		产品部件:
+//		部件A
+//		部件B
 		System.out.println();
 		Product p2 = director.Construct(b2);
 		p2.show();
+//		产品部件:
+//		部件X
+//		部件Y
+		
 	}
 }

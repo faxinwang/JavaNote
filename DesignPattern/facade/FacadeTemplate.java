@@ -74,7 +74,13 @@ public class FacadeTemplate {
 	public static void main(String[] args) {
 		FacadeTemplate facade = new FacadeTemplate();
 		facade.MethodA();
+//		方法组A()----
+//		子系统方法一
+//		子系统方法二
 		System.out.println();
 		facade.MethodB();
+//		方法组B()----
+//		子系统方法三
+//		子系统方法四
 	}
 }

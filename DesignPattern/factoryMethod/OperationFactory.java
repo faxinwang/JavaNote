@@ -92,5 +92,6 @@ public class OperationFactory{
 		op.NumA = 10;
 		op.NumB = 30;
 		System.out.println("10 * 30 = " + op.getResult());
+		//10 * 30 = 300.0
 	}
 }

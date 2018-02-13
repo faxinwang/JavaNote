@@ -57,6 +57,7 @@ public class MementoTemplate {
 		Originator originator = new Originator();
 		originator.setState("on");
 		originator.show();
+		//state: on
 		
 		//备份数据
 		Caretaker caretaker = new Caretaker();
@@ -65,9 +66,11 @@ public class MementoTemplate {
 		//改变状态
 		originator.setState("off");
 		originator.show();
+		//state: off
 		
 		//恢复数据
 		originator.setMemento(caretaker.getMemento());
 		originator.show();
+		//state: on
 	}
 }

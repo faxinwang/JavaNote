@@ -34,7 +34,6 @@ public class TemplatePattern extends  SpeedMeter{
 		TemplatePattern tp = new TemplatePattern();
 		tp.setTureRate(15);
 		System.out.println(tp.getSpeed());
+		//235.61944901923448
 	}
-
-	
 }

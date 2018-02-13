@@ -55,11 +55,11 @@ class ConcreteStateC extends State{
 public class StateTemplate {
 	public static void main(String[] args) {
 		Context context = new Context(new ConcreteStateA());
-		context.Request();
-		context.Request();
-		context.Request();
-		context.Request();
-		context.Request();
-		context.Request();
+		context.Request(); //当前状态:class state.ConcreteStateB
+		context.Request(); //当前状态:class state.ConcreteStateC
+		context.Request(); //当前状态:class state.ConcreteStateA
+		context.Request(); //当前状态:class state.ConcreteStateB
+		context.Request(); //当前状态:class state.ConcreteStateC
+		context.Request(); //当前状态:class state.ConcreteStateA
 	}
 }

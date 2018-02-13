@@ -26,19 +26,19 @@ public class Singleton {
 		Singleton s1 = Singleton.getInstance();
 		Singleton s2 = Singleton.getInstance();
 		
-		System.out.println(s2.getName());
+		System.out.println(s2.getName()); //null
 		
 		s1.setName("single");
 		
-		System.out.println(s2.getName());
-		System.out.println("s1 == s2: " + (s1==s2));
+		System.out.println(s2.getName());  //single
+		System.out.println("s1 == s2: " + (s1==s2)); //s1 == s2: true
 		
 		s1.setName("singleton!");
 		s1 = null;
 		s2 = null;
 		
 		s2 = Singleton.getInstance();
-		System.out.println(s2.getName());
+		System.out.println(s2.getName()); //singleton!
 	}
 	
 }

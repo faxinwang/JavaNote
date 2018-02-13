@@ -126,5 +126,13 @@ public class Working {
 		emergencyWork.WriteProgram();
 		emergencyWork.setHour(21);
 		emergencyWork.WriteProgram();
+//		当前时间:9上午工作，精神百倍
+//		当前时间:10上午工作，精神百倍
+//		当前时间：12饿了，午饭，犯困，午休
+//		当前时间：13下午状态还不错，继续努力
+//		当前时间：14下午状态还不错，继续努力
+//		当前时间：17加班，疲惫至极!
+//		当前时间：19加班，疲惫至极!
+//		当前时间：21不行了，睡着了!
 	}
 }

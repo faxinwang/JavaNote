@@ -56,8 +56,8 @@ class ProxyPursuit implements IGiveGift{
 public class ProxyBoyfriend{
 	public static void main(String[] args) {
 		ProxyPursuit proxy = new ProxyPursuit(new SchoolGirl("½¿½¿"));
-		proxy.giveDolls();
-		proxy.giveFlowers();
-		proxy.giveChocolate();
+		proxy.giveDolls(); //½¿½¿ ËÍÄãÑóÍŞÍŞ
+		proxy.giveFlowers(); //½¿½¿ ËÍÄãÏÊ»¨
+		proxy.giveChocolate(); //½¿½¿ ËÍÄãÇÉ¿ËÁ¦
 	}
 }

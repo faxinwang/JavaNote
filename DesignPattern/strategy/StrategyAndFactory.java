@@ -83,14 +83,17 @@ public class StrategyAndFactory {
 		CashContext csuper = new CashContext(CashContext.Return);
 		totalPrices = csuper.getResult(500);
 		System.out.println("Item1: " + totalPrices +"  满300减100");
+		//Item1: 400.0  满300减100
 		total += totalPrices;
 		
 		csuper = new CashContext(CashContext.Rebate);
 		totalPrices = csuper.getResult(1000);
 		System.out.println("Item2: " + totalPrices + "  打八折");
+		//Item2: 800.0  打八折
 		total += totalPrices;
 		
-		System.out.println("总价: " + total);
+		System.out.println("总价: " + total); 
+		//总价: 1200.0
 		
 	}
 

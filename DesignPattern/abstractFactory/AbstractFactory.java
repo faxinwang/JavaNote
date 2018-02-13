@@ -157,3 +157,11 @@ public class AbstractFactory {
 		iDepartment.getDepartment(2);
 	}
 }
+
+/**
+output:
+在 access 中给User表增加一条记录
+在 access 中根据id得到user表一条记录
+在access的department表中插入一条记录
+在 access的department表中根据id得到一条记录
+ */

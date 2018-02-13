@@ -43,5 +43,13 @@ public class CommandTest {
 		ap.process(target, new PrintCommand());
 		//第二次处理数组，处理行为取决于AddCommand
 		ap.process(target, new AddCommand());
+		
+//		迭代输出目标数组的元素:3
+//		迭代输出目标数组的元素:-4
+//		迭代输出目标数组的元素:5
+//		迭代输出目标数组的元素:6
+//		迭代输出目标数组的元素:7
+//		数组元素的总和为:17
+		
 	}
 }
